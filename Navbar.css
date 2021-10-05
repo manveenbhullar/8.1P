@@ -1,0 +1,30 @@
+
+.NavbarItems {
+    background-color:lightblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    width: 70vw;
+    grid-gap: 100px;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.page-name{
+    color: white;
+    font-weight: 700;
+}
